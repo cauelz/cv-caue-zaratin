@@ -1,0 +1,38 @@
+#navbar {
+
+    overflow: hidden;
+    background-color: #5770fc;
+}
+
+#navbar a {
+    float: left;
+    display: block;
+    color: #66e6fd;
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+}
+
+#navbar a:hover {
+    background-color: #ddd;
+    color: black;
+}
+  
+  #navbar a.active {
+    background-color: #4CAF50;
+    color: white;
+}
+  
+  .content {
+    padding: 16px;
+}
+  
+  .sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+  
+  .sticky + .content {
+    padding-top: 60px;
+}
