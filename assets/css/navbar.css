@@ -1,7 +1,7 @@
 #navbar {
 
     overflow: hidden;
-    background-color: #5770fc;
+    background-color: #1e45b3;
 }
 
 #navbar a {
@@ -19,7 +19,7 @@
 }
   
   #navbar a.active {
-    background-color: #4CAF50;
+    background-color: #b6b8fe;
     color: white;
 }
   

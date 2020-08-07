@@ -1,11 +1,13 @@
 .contatoSobre {
-
+    margin: 64px;
+    
 }
 
-.contatoSobre ul li {
-    align-items: center;
+li {
+    display: flex;
+    align-items: flex-start;
 }
 
-.zap {
+li a {
     margin: 10px;
 }
